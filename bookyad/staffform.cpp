@@ -72,16 +72,18 @@ void StaffForm::show_grid()
     model->setQuery(*qry);
 
 
-    model->setHeaderData(0, Qt::Horizontal, "کد پرسنلی");
-    model->setHeaderData(1, Qt::Horizontal, "نام و نام خانوادگی");
+    // Define new column names
+    QStringList newColumnNames;
+    newColumnNames <<  "کد پرسنلی" << "نام , نام خانوادگی" << "رمز عبور" << "نوع فعالیت" ;
 
+    for (int column = 0; column < newColumnNames.size(); ++column)
+    {
+        model->setHeaderData(column, Qt::Horizontal, newColumnNames[column]);
+    }
 
     ui->tableView->setModel(model);
 
     qDebug() << (model->rowCount());
-
-
-
 }
 
 
