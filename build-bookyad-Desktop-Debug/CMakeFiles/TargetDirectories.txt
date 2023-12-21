@@ -1,0 +1,9 @@
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/bookyad.dir
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/list_install_components.dir
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/install.dir
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/install/local.dir
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/install/strip.dir
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/bookyad_autogen_timestamp_deps.dir
+C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/bookyad_autogen.dir

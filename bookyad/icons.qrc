@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/about.png</file>
+        <file>icons/biologo.png</file>
+        <file>icons/biologo.xcf</file>
+        <file>icons/biologoorginal.png</file>
+        <file>icons/book.png</file>
+        <file>icons/book_2.png</file>
+        <file>icons/bookinsert.png</file>
+        <file>icons/borrower.png</file>
+        <file>icons/exit.png</file>
+        <file>icons/isbn.png</file>
+        <file>icons/isbn_2.png</file>
+        <file>icons/loginlogo.png</file>
+        <file>icons/loginlogo.xcf</file>
+        <file>icons/logo.png</file>
+        <file>icons/search.png</file>
+        <file>icons/staff.png</file>
+        <file>icons/student.jpg</file>
+        <file>icons/student.png</file>
+        <file>icons/pencil-icon.png</file>
+        <file>icons/password-icon.png</file>
+        <file>icons/Personnel Code icon.png</file>
+        <file>icons/calender.png</file>
+        <file>icons/member.png</file>
+        <file>icons/mobile.png</file>
+        <file>icons/national id.png</file>
+    </qresource>
+</RCC>
