@@ -63,7 +63,7 @@ void StaffForm::on_pushButton_refresh_clicked()
 
 void StaffForm::show_grid()
 {
-    // ...
+
 
     QSqlQueryModel *model = new QSqlQueryModel();
     QSqlQuery *qry = new QSqlQuery;
@@ -72,21 +72,8 @@ void StaffForm::show_grid()
     model->setQuery(*qry);
 
 
-    int rowCount = model->rowCount();
-    int columnCount = model->columnCount();
-
-    for (int row = 0; row < rowCount; ++row) {
-        for (int col = 0; col < columnCount; ++col) {
-            QModelIndex index = model->index(row, col);
-            QVariant data = model->data(index);
-
-                data = data.toString()+"2";
-
-
-
-            model->setData(index, data);
-        }
-    }
+    model->setHeaderData(0, Qt::Horizontal, "کد پرسنلی");
+    model->setHeaderData(1, Qt::Horizontal, "نام و نام خانوادگی");
 
 
     ui->tableView->setModel(model);
