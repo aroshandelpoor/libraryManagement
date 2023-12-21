@@ -10,3 +10,6 @@ INNER JOIN Staff_Details ON Borrower_Details.Issued_by = Staff_Details.کد_پر
 --INNER JOIN Student_Details ON Borrower_Details.Borrower_Id=Student_Details.Borrower_Id
 --INNER JOIN Book_Info ON Borrower_Details.Book_ID = Book_Info.ISBN_Code
 --INNER JOIN Staff_Details ON Borrower_Details.Issued_by = Staff_Details.کد_پرسنلی;
+
+
+test for giti
