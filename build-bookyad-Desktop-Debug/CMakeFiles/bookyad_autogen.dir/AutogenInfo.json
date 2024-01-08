@@ -301,6 +301,9 @@
 		"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets.cmake",
 		"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindOpenSSL.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake",
 		"C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/icons.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad",
@@ -438,11 +441,11 @@
 		"C:/Qt/6.5.0/mingw_64/include/QtWidgets",
 		"C:/Qt/6.5.0/mingw_64/include/QtGui",
 		"C:/Qt/6.5.0/mingw_64/include/QtSql",
+		"C:/msys64/mingw64/include",
 		"C:/msys64/mingw64/include/c++/12.2.0",
 		"C:/msys64/mingw64/include/c++/12.2.0/x86_64-w64-mingw32",
 		"C:/msys64/mingw64/include/c++/12.2.0/backward",
 		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include",
-		"C:/msys64/mingw64/include",
 		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed"
 	],
 	"MOC_MACRO_NAMES" : 

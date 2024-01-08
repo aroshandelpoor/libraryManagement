@@ -34,6 +34,7 @@ public:
     QLabel *label_text;
     QLabel *label_icon;
     QHBoxLayout *horizontalLayout_2;
+    QPushButton *pushButton_search;
     QLineEdit *lineEdit_search;
     QLabel *label_search_text;
     QLabel *label_search_icon;
@@ -89,6 +90,11 @@ public:
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName("horizontalLayout_2");
+        pushButton_search = new QPushButton(centralwidget);
+        pushButton_search->setObjectName("pushButton_search");
+
+        horizontalLayout_2->addWidget(pushButton_search);
+
         lineEdit_search = new QLineEdit(centralwidget);
         lineEdit_search->setObjectName("lineEdit_search");
 
@@ -116,6 +122,7 @@ public:
         tableView = new QTableView(centralwidget);
         tableView->setObjectName("tableView");
         tableView->setLayoutDirection(Qt::RightToLeft);
+        tableView->setFrameShadow(QFrame::Sunken);
         tableView->setShowGrid(true);
 
         horizontalLayout_3->addWidget(tableView);
@@ -167,6 +174,7 @@ public:
         bookForm->setWindowTitle(QCoreApplication::translate("bookForm", "MainWindow", nullptr));
         label_text->setText(QCoreApplication::translate("bookForm", "\330\263\330\247\331\205\330\247\331\206\331\207 \331\205\330\257\333\214\330\261\333\214\330\252 \332\251\330\252\330\247\330\250\330\256\330\247\331\206\331\207 \330\250\331\210\332\251\333\214\330\247\330\257", nullptr));
         label_icon->setText(QString());
+        pushButton_search->setText(QCoreApplication::translate("bookForm", "\330\254\330\263\330\252\330\254\331\210", nullptr));
         label_search_text->setText(QCoreApplication::translate("bookForm", "\330\254\330\263\330\252\330\254\331\210:", nullptr));
         label_search_icon->setText(QString());
         pushButton_insert->setText(QCoreApplication::translate("bookForm", "\330\253\330\250\330\252", nullptr));

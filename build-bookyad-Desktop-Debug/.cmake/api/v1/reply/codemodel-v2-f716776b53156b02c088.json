@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-b2691ead3d73b2f1122a.json",
+					"jsonFile" : "directory-.-Debug-f7cc6162b09f2c6dc6c0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "bookyad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bookyad-Debug-58eeb37f12a896312b21.json",
+					"jsonFile" : "target-bookyad-Debug-049496c3df4c04ccda49.json",
 					"name" : "bookyad",
 					"projectIndex" : 0
 				},

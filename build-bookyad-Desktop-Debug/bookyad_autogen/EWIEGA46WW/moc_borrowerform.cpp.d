@@ -145,6 +145,7 @@ C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/bookyad_auto
   C:/msys64/mingw64/include/_mingw_off_t.h \
   C:/msys64/mingw64/include/_mingw_secapi.h \
   C:/msys64/mingw64/include/_mingw_stat64.h \
+  C:/msys64/mingw64/include/_mingw_stdarg.h \
   C:/msys64/mingw64/include/_timeval.h \
   C:/msys64/mingw64/include/assert.h \
   C:/msys64/mingw64/include/c++/12.2.0/algorithm \
@@ -290,7 +291,6 @@ C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/bookyad_auto
   C:/msys64/mingw64/include/c++/12.2.0/pstl/glue_memory_defs.h \
   C:/msys64/mingw64/include/c++/12.2.0/pstl/glue_numeric_defs.h \
   C:/msys64/mingw64/include/c++/12.2.0/stdexcept \
-  C:/msys64/mingw64/include/c++/12.2.0/stdlib.h \
   C:/msys64/mingw64/include/c++/12.2.0/streambuf \
   C:/msys64/mingw64/include/c++/12.2.0/string \
   C:/msys64/mingw64/include/c++/12.2.0/string_view \
@@ -332,6 +332,7 @@ C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/bookyad_auto
   C:/msys64/mingw64/include/errno.h \
   C:/msys64/mingw64/include/limits.h \
   C:/msys64/mingw64/include/locale.h \
+  C:/msys64/mingw64/include/malloc.h \
   C:/msys64/mingw64/include/process.h \
   C:/msys64/mingw64/include/pthread.h \
   C:/msys64/mingw64/include/pthread_compat.h \
@@ -340,11 +341,16 @@ C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/bookyad_auto
   C:/msys64/mingw64/include/pthread_unistd.h \
   C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
   C:/msys64/mingw64/include/sec_api/stdio_s.h \
+  C:/msys64/mingw64/include/sec_api/stdlib_s.h \
   C:/msys64/mingw64/include/sec_api/string_s.h \
   C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
   C:/msys64/mingw64/include/sec_api/wchar_s.h \
   C:/msys64/mingw64/include/signal.h \
+  C:/msys64/mingw64/include/stdarg.h \
+  C:/msys64/mingw64/include/stddef.h \
+  C:/msys64/mingw64/include/stdint.h \
   C:/msys64/mingw64/include/stdio.h \
+  C:/msys64/mingw64/include/stdlib.h \
   C:/msys64/mingw64/include/string.h \
   C:/msys64/mingw64/include/swprintf.inl \
   C:/msys64/mingw64/include/sys/timeb.h \
@@ -353,7 +359,5 @@ C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/bookyad_auto
   C:/msys64/mingw64/include/vadefs.h \
   C:/msys64/mingw64/include/wchar.h \
   C:/msys64/mingw64/include/wctype.h \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdarg.h \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stddef.h \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h

@@ -28,6 +28,8 @@ private slots:
 
     void on_pushButton_refresh_clicked();
 
+    void on_pushButton_search_clicked();
+
 private:
     Ui::bookForm *ui;
     DialoginsertBook insertBook;
