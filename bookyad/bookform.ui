@@ -86,6 +86,13 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
+       <widget class="QPushButton" name="pushButton_search">
+        <property name="text">
+         <string>جستجو</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QLineEdit" name="lineEdit_search"/>
       </item>
       <item>
@@ -128,6 +135,9 @@
        <widget class="QTableView" name="tableView">
         <property name="layoutDirection">
          <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
         </property>
         <property name="showGrid">
          <bool>true</bool>

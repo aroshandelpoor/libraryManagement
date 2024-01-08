@@ -8,6 +8,8 @@
 #include "QFileInfo"
 #include "QScreen"
 
+#include <openssl/evp.h>
+#include <openssl/rand.h>
 
 LoginWindow::LoginWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -30,9 +32,11 @@ LoginWindow::LoginWindow(QWidget *parent) :
 
     setWindowTitle("سامانه مدیریت کتابخانه بوکیاد");
 
-    ui->lineEdit_user->setStyleSheet("QLineEdit {  border: 2px solid gray;" "border-radius: 5px;}");
-    ui->lineEdit_password->setStyleSheet("QLineEdit {  border: 2px solid gray;" "border-radius: 5px;}");
+    ui->lineEdit_user->setStyleSheet("QLineEdit {border: 2px solid gray;" "border-radius: 5px;}");
+    ui->lineEdit_password->setStyleSheet("QLineEdit {border: 2px solid gray;" "border-radius: 5px;}");
     ui->lineEdit_password->setEchoMode(QLineEdit::Password);
+
+
 
 }
 

@@ -32,6 +32,10 @@ bookForm::bookForm(QWidget *parent) :
     setWindowTitle("پنل ثبت کتاب");
 
     show_grid();
+
+    ui->lineEdit_search->setStyleSheet("QLineEdit {border: 2px solid gray;" "border-radius: 5px;}");
+
+
 }
 
 bookForm::~bookForm()
@@ -73,30 +77,7 @@ void bookForm::show_grid()
     qry->exec();
     model->setQuery(*qry);
 
-    QString tableName = "Book_Info";  // Replace with your table name
 
-    QMap<QString, QString> columnMap;
-    columnMap["شابک"] = "ISBN_Code";
-    columnMap["Book_Name"] = "Book_Title";
-    columnMap["نویسنده"] = "Writer_Name";
-    // Add more column mappings as needed
-
-    QSqlQuery query;
-
-    foreach(const QString& oldColumnName, columnMap.keys()) {
-        const QString& newColumnName = columnMap.value(oldColumnName);
-
-        QString queryString = QString("ALTER TABLE %1 RENAME COLUMN %2 TO %3")
-                                  .arg(tableName)
-                                  .arg(oldColumnName)
-                                  .arg(newColumnName);
-
-        if (query.exec(queryString)) {
-            qDebug() << "Column" << oldColumnName << "renamed to" << newColumnName;
-        } else {
-            qDebug() << "Error renaming column" << oldColumnName << ":" << query.lastError().text();
-        }
-    }
 
 
 
@@ -104,3 +85,25 @@ void bookForm::show_grid()
 
     qDebug() << (model->rowCount());
 }
+
+
+void bookForm::on_pushButton_search_clicked()
+{
+
+    QString searchTerm;
+
+    searchTerm=ui->lineEdit_search->text();
+
+    QSqlQueryModel *model0=new QSqlQueryModel();
+
+    QSqlQuery *qry0=new QSqlQuery;
+    qry0->prepare("SELECT * FROM Book_Info where book_Title like'%"+searchTerm+"%'");
+    qry0->exec();
+    model0->setQuery(*qry0);
+
+    connect(ui->lineEdit_search,SIGNAL(textChanged(QString)),ui->pushButton_search,SLOT(cliked()));
+
+    ui->tableView->setModel(model0);
+    qDebug() << (model0->rowCount());
+}
+
