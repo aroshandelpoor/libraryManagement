@@ -77,9 +77,13 @@ void bookForm::show_grid()
     qry->exec();
     model->setQuery(*qry);
 
+    QStringList newColumnNames;
+    newColumnNames <<  "شابک" << "نام کتاب" << "نام نویسنده";
 
-
-
+    for (int column = 0; column < newColumnNames.size(); ++column)
+    {
+        model->setHeaderData(column, Qt::Horizontal, newColumnNames[column]);
+    }
 
     ui->tableView->setModel(model);
 
@@ -100,7 +104,6 @@ void bookForm::on_pushButton_search_clicked()
     qry0->prepare("SELECT * FROM Book_Info where book_Title like'%"+searchTerm+"%'");
     qry0->exec();
     model0->setQuery(*qry0);
-
 
 
     ui->tableView->setModel(model0);
