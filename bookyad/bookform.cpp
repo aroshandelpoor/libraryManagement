@@ -101,7 +101,7 @@ void bookForm::on_pushButton_search_clicked()
     qry0->exec();
     model0->setQuery(*qry0);
 
-    connect(ui->lineEdit_search,SIGNAL(textChanged(QString)),ui->pushButton_search,SLOT(cliked()));
+
 
     ui->tableView->setModel(model0);
     qDebug() << (model0->rowCount());
