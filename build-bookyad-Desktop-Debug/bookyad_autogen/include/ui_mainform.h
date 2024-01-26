@@ -38,6 +38,7 @@ public:
     QWidget *centralwidget;
     QGridLayout *gridLayout;
     QVBoxLayout *verticalLayout;
+    QSpacerItem *horizontalSpacer_5;
     QLabel *label;
     QSpacerItem *horizontalSpacer_3;
     QSpacerItem *verticalSpacer;
@@ -99,10 +100,15 @@ public:
         gridLayout->setObjectName("gridLayout");
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName("verticalLayout");
+        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        verticalLayout->addItem(horizontalSpacer_5);
+
         label = new QLabel(centralwidget);
         label->setObjectName("label");
         QFont font1;
         font1.setFamilies({QString::fromUtf8("IRANSansX")});
+        font1.setPointSize(18);
         font1.setBold(true);
         label->setFont(font1);
         label->setTabletTracking(false);
@@ -165,6 +171,8 @@ public:
         MainForm->setStatusBar(statusbar);
         toolBar = new QToolBar(MainForm);
         toolBar->setObjectName("toolBar");
+        toolBar->setIconSize(QSize(32, 32));
+        toolBar->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
         MainForm->addToolBar(Qt::TopToolBarArea, toolBar);
 
         menubar->addAction(menu->menuAction());
@@ -228,9 +236,7 @@ public:
 };
 
 namespace Ui {
-class MainForm: public Ui_MainForm {private slots:
-    void on_action_insertbook_triggered();
-};
+    class MainForm: public Ui_MainForm {};
 } // namespace Ui
 
 QT_END_NAMESPACE

@@ -30,6 +30,8 @@ private slots:
 
     void on_pushButton_search_clicked();
 
+    void on_tableView_customContextMenuRequested(const QPoint& pos);
+
 private:
     Ui::bookForm *ui;
     DialoginsertBook insertBook;

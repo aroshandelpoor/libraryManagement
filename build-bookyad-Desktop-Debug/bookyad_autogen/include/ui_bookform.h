@@ -121,6 +121,9 @@ public:
         horizontalLayout_3->setObjectName("horizontalLayout_3");
         tableView = new QTableView(centralwidget);
         tableView->setObjectName("tableView");
+        tableView->setTabletTracking(false);
+        tableView->setContextMenuPolicy(Qt::CustomContextMenu);
+        tableView->setAcceptDrops(false);
         tableView->setLayoutDirection(Qt::RightToLeft);
         tableView->setFrameShadow(QFrame::Sunken);
         tableView->setShowGrid(true);
