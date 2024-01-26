@@ -35,6 +35,8 @@ bookForm::bookForm(QWidget *parent) :
 
     ui->lineEdit_search->setStyleSheet("QLineEdit {border: 2px solid gray;" "border-radius: 5px;}");
 
+    connect(ui->tableView, &QTableView::customContextMenuRequested, this, &bookForm::on_tableView_customContextMenuRequested);
+
 
 }
 
@@ -101,12 +103,37 @@ void bookForm::on_pushButton_search_clicked()
     QSqlQueryModel *model0=new QSqlQueryModel();
 
     QSqlQuery *qry0=new QSqlQuery;
-    qry0->prepare("SELECT * FROM Book_Info where book_Title like'%"+searchTerm+"%'");
+    qry0->prepare("SELECT * FROM Book_Info where Book_Title like'%"+searchTerm+"%'");
     qry0->exec();
     model0->setQuery(*qry0);
 
+    QStringList newColumnNames;
+    newColumnNames <<  "شابک" << "نام کتاب" << "نام نویسنده";
+
+    for (int column = 0; column < newColumnNames.size(); ++column)
+    {
+        model0->setHeaderData(column, Qt::Horizontal, newColumnNames[column]);
+    }
 
     ui->tableView->setModel(model0);
     qDebug() << (model0->rowCount());
 }
 
+void bookForm::on_tableView_customContextMenuRequested(const QPoint& pos)
+{
+    QMenu* contextMenu = new QMenu(this);
+
+    // Create the actions for the context menu
+    QAction* action1 = new QAction("حذف", this);
+    QAction* action2 = new QAction("ویرایش", this);
+
+    // Add the actions to the context menu
+    contextMenu->addAction(action1);
+    contextMenu->addAction(action2);
+
+    // Show the context menu at the given position
+    contextMenu->exec(ui->tableView->viewport()->mapToGlobal(pos));
+
+    // Clean up the memory
+    delete contextMenu;
+}
