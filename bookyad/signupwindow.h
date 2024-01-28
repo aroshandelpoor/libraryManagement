@@ -1,0 +1,4 @@
+#ifndef SIGNUPWINDOW_H
+#define SIGNUPWINDOW_H
+
+#endif // SIGNUPWINDOW_H

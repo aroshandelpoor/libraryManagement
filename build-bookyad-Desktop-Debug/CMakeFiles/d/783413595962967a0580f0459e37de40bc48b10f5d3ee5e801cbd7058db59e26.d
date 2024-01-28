@@ -296,77 +296,96 @@ bookyad_autogen/timestamp: \
   C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
   C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
   C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeRCInformation.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindOpenSSL.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindVulkan.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake \
+  C:/Qt/Tools/CMake_64/bin/cmake.exe \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCInformation.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindOpenSSL.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindPackageMessage.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindVulkan.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows.cmake \
+  C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/CMakeLists.txt \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/SignUpWindow.h \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/bookform.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/bookform.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/bookform.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/borrowerform.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/borrowerform.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/borrowerform.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogbio.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogbio.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogbio.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletebook.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletebook.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletebook.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletemember.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletemember.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletemember.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletestaff.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletestaff.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletestaff.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditbook.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditbook.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditbook.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditmember.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditmember.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditmember.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditstaff.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditstaff.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditstaff.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertbook.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertbook.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertbook.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertmember.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertmember.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertmember.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertstaff.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertstaff.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertstaff.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/icons.qrc \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/loginwindow.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/loginwindow.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/loginwindow.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/main.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/mainform.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/mainform.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/mainform.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/memberform.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/memberform.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/memberform.ui \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/staffform.cpp \
   C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/staffform.h \
+  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/staffform.ui \
   .qtc/package-manager/auto-setup.cmake \
-  CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
-  CMakeFiles/3.24.2/CMakeSystem.cmake \
+  CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
+  CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
+  CMakeFiles/3.27.7/CMakeSystem.cmake \
   bookyad_autogen/moc_predefs.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
@@ -588,21 +607,4 @@ bookyad_autogen/timestamp: \
   C:/msys64/mingw64/include/wchar.h \
   C:/msys64/mingw64/include/wctype.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
-  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/bookform.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/borrowerform.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogbio.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletebook.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletemember.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogdeletestaff.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditbook.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditmember.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialogeditstaff.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertbook.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertmember.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/dialoginsertstaff.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/loginwindow.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/mainform.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/memberform.ui \
-  C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/staffform.ui \
-  C:/Qt/Tools/CMake_64/bin/cmake.exe
+  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h

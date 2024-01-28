@@ -34,7 +34,7 @@
 			"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
 			"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
 			"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-			"C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
 			"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
 			"C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
@@ -75,25 +75,25 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 96,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 1,
-				"line" : 83,
-				"parent" : 0
-			},
-			{
-				"command" : 5,
-				"file" : 1,
-				"line" : 84,
+				"line" : 98,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
 				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 87,
 				"parent" : 0
 			},
 			{
@@ -157,7 +157,7 @@
 			{
 				"command" : 8,
 				"file" : 7,
-				"line" : 47,
+				"line" : 76,
 				"parent" : 19
 			},
 			{
@@ -195,7 +195,7 @@
 			{
 				"command" : 8,
 				"file" : 7,
-				"line" : 47,
+				"line" : 76,
 				"parent" : 26
 			},
 			{
@@ -243,7 +243,7 @@
 			{
 				"command" : 8,
 				"file" : 7,
-				"line" : 47,
+				"line" : 76,
 				"parent" : 35
 			},
 			{
@@ -280,10 +280,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG -g"
-				},
-				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
 				}
 			],
 			"defines" : 
@@ -404,18 +401,18 @@
 				43,
 				46,
 				49,
-				68
+				69
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "bookyad_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "bookyad_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "bookyad_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "bookyad::@6890427a1f51a3e7e1df",
@@ -553,7 +550,7 @@
 				43,
 				46,
 				49,
-				68
+				69
 			]
 		},
 		{
@@ -591,7 +588,8 @@
 				63,
 				64,
 				65,
-				66
+				66,
+				67
 			]
 		},
 		{
@@ -615,15 +613,15 @@
 				44,
 				47,
 				50,
-				67
+				68
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				69,
-				70
+				70,
+				71
 			]
 		}
 	],
@@ -902,6 +900,11 @@
 			"backtrace" : 4,
 			"path" : "dialogeditmember.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "SignUpWindow.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,

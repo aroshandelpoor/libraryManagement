@@ -296,39 +296,41 @@ bookyad_autogen/timestamp: \
 	C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
 	C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
 	C:/Qt/6.5.0/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeRCInformation.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindOpenSSL.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindVulkan.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/GNUInstallDirs.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows.cmake \
-	C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCInformation.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CheckLibraryExists.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindOpenSSL.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindPackageMessage.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindThreads.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/FindVulkan.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows.cmake \
+	C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake \
 	C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/CMakeLists.txt \
+	C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/SignUpWindow.h \
 	C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/bookform.cpp \
 	C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/bookform.h \
 	C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/borrowerform.cpp \
@@ -364,9 +366,9 @@ bookyad_autogen/timestamp: \
 	C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/staffform.cpp \
 	C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/staffform.h \
 	C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/.qtc/package-manager/auto-setup.cmake \
-	C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
-	C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
-	C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/3.24.2/CMakeSystem.cmake \
+	C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
+	C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
+	C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
 	C:/Users/arosh/OneDrive/Desktop/bookyad/build-bookyad-Desktop-Debug/bookyad_autogen/moc_predefs.h \
 	C:/msys64/mingw64/include/_mingw.h \
 	C:/msys64/mingw64/include/_mingw_mac.h \
