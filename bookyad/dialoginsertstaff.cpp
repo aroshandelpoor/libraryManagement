@@ -1,5 +1,10 @@
 #include "dialoginsertstaff.h"
 #include "ui_dialoginsertstaff.h"
+#include "QSqlDatabase"
+#include "QSqlQuery"
+#include "QSqlQueryModel"
+#include "QMessageBox"
+#include "QCryptographicHash"
 
 DialogInsertStaff::DialogInsertStaff(QWidget *parent) :
     QDialog(parent),
@@ -12,3 +17,36 @@ DialogInsertStaff::~DialogInsertStaff()
 {
     delete ui;
 }
+
+void DialogInsertStaff::on_pushButton_insert_clicked()
+{
+    QString Duty,staffName,pass,repeatPass;
+
+    Duty=ui->comboBox_role->currentText();
+    staffName=ui->lineEdit_staff_name->text();
+    pass=ui->lineEdit_password->text();
+    repeatPass=ui->label_repeat_password->text();
+
+    QCryptographicHash hash(QCryptographicHash::Md5);
+    hash.addData(pass.toUtf8());
+    QByteArray hashedPassword = hash.result().toHex();
+
+    QSqlQuery queryinsert;
+    queryinsert.prepare("INSERT INTO Staff_Details (name,Password,duty) VALUES ('"+staffName+"','"+hashedPassword+"','"+Duty+"')");
+
+    if(queryinsert.exec())
+    {
+
+        QMessageBox::about(this,"ثبت","اطلاعات با موفقیت ثبت گردید.");
+
+    }
+    else if (!queryinsert.exec())
+    {
+
+        QMessageBox::critical(this,"خطای ثبت","اطلاعات ارسال نشد!");
+
+    }
+
+
+}
+

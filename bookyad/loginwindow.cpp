@@ -8,6 +8,7 @@
 #include "QFileInfo"
 #include "QScreen"
 
+#include "QCryptographicHash"
 #include <openssl/evp.h>
 #include <openssl/rand.h>
 
@@ -51,8 +52,6 @@ void LoginWindow::on_pushButton_login_clicked()
 
     userName=ui->lineEdit_user->text();
     passWord=ui->lineEdit_password->text();
-
-
 
     QSqlQuery qry;
 

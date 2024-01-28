@@ -15,6 +15,9 @@ public:
     explicit DialogInsertStaff(QWidget *parent = nullptr);
     ~DialogInsertStaff();
 
+private slots:
+    void on_pushButton_insert_clicked();
+
 private:
     Ui::DialogInsertStaff *ui;
 };

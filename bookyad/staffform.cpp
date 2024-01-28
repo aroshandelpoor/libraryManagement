@@ -10,6 +10,7 @@
 #include "QFileInfo"
 #include "QScreen"
 #include "QSqlError"
+#include "QCryptographicHash"
 
 StaffForm::StaffForm(QWidget *parent) :
     QMainWindow(parent),
@@ -67,7 +68,7 @@ void StaffForm::show_grid()
 
     QSqlQueryModel *model = new QSqlQueryModel();
     QSqlQuery *qry = new QSqlQuery;
-    qry->prepare("SELECT id, name, duty FROM Staff_Details ORDER BY id DESC");
+    qry->prepare("SELECT * FROM Staff_Details ORDER BY id DESC");
     qry->exec();
     model->setQuery(*qry);
 
