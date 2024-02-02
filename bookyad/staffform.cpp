@@ -73,7 +73,7 @@ void StaffForm::show_grid()
     model->setQuery(*qry);
 
 
-    // Define new column names
+
     QStringList newColumnNames;
     newColumnNames <<  "کد پرسنلی" << "نام , نام خانوادگی" << "رمز عبور" << "نوع فعالیت" ;
 
