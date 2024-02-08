@@ -7,10 +7,7 @@
 #include "QDir"
 #include "QFileInfo"
 #include "QScreen"
-
 #include "QCryptographicHash"
-#include <openssl/evp.h>
-#include <openssl/rand.h>
 
 LoginWindow::LoginWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -53,9 +50,13 @@ void LoginWindow::on_pushButton_login_clicked()
     userName=ui->lineEdit_user->text();
     passWord=ui->lineEdit_password->text();
 
+    QCryptographicHash hash(QCryptographicHash::Md5);
+    hash.addData(passWord.toUtf8());
+    QByteArray hashedPassword = hash.result().toHex();
+
     QSqlQuery qry;
 
-    if (qry.exec("SELECT id,Password FROM Staff_Details WHERE id='"+userName+"'  AND Password='"+passWord+"'"))
+    if (qry.exec("SELECT id,Password FROM Staff_Details WHERE id='"+userName+"'  AND Password='"+hashedPassword+"'"))
     {
         int count=0;
         while (qry.next())

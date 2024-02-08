@@ -25,5 +25,6 @@
         <file>icons/member.png</file>
         <file>icons/mobile.png</file>
         <file>icons/national id.png</file>
+        <file>icons/personal id.png</file>
     </qresource>
 </RCC>

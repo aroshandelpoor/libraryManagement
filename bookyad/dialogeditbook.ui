@@ -126,17 +126,17 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_5">
           <item>
-           <widget class="QLineEdit" name="lineEdit_writername_2"/>
+           <widget class="QLineEdit" name="lineEdit_writername"/>
           </item>
           <item>
-           <widget class="QLabel" name="label_writername_text_2">
+           <widget class="QLabel" name="label_writername_text">
             <property name="text">
              <string>نویسنده:</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_writer_icon_2">
+           <widget class="QLabel" name="label_writer_icon">
             <property name="minimumSize">
              <size>
               <width>16</width>

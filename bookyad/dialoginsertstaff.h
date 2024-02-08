@@ -18,6 +18,8 @@ public:
 private slots:
     void on_pushButton_insert_clicked();
 
+    void on_pushButton_exit_clicked();
+
 private:
     Ui::DialogInsertStaff *ui;
 };

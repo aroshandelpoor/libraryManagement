@@ -15,6 +15,11 @@ public:
     explicit DialogDeleteStaff(QWidget *parent = nullptr);
     ~DialogDeleteStaff();
 
+private slots:
+    void on_pushButton_delete_clicked();
+
+    void on_pushButton_exit_clicked();
+
 private:
     Ui::DialogDeleteStaff *ui;
 };

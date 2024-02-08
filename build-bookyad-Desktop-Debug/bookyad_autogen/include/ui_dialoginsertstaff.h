@@ -38,6 +38,9 @@ public:
     QLineEdit *lineEdit_staff_name;
     QLabel *label_staff_name;
     QLabel *label_staff_icon;
+    QLineEdit *lineEdit_id;
+    QLabel *label_id_text;
+    QLabel *label_id_icon;
     QHBoxLayout *horizontalLayout_2;
     QLineEdit *lineEdit_repeat_password;
     QLabel *label_repeat_password;
@@ -115,6 +118,25 @@ public:
         label_staff_icon->setScaledContents(true);
 
         horizontalLayout->addWidget(label_staff_icon);
+
+        lineEdit_id = new QLineEdit(groupBox);
+        lineEdit_id->setObjectName("lineEdit_id");
+
+        horizontalLayout->addWidget(lineEdit_id);
+
+        label_id_text = new QLabel(groupBox);
+        label_id_text->setObjectName("label_id_text");
+
+        horizontalLayout->addWidget(label_id_text);
+
+        label_id_icon = new QLabel(groupBox);
+        label_id_icon->setObjectName("label_id_icon");
+        label_id_icon->setMinimumSize(QSize(16, 16));
+        label_id_icon->setMaximumSize(QSize(16, 16));
+        label_id_icon->setPixmap(QPixmap(QString::fromUtf8(":/icons/personal id.png")));
+        label_id_icon->setScaledContents(true);
+
+        horizontalLayout->addWidget(label_id_icon);
 
 
         verticalLayout_2->addLayout(horizontalLayout);
@@ -197,6 +219,8 @@ public:
         label_role->setText(QCoreApplication::translate("DialogInsertStaff", "\331\206\331\210\330\271 \331\201\330\271\330\247\331\204\333\214\330\252:", nullptr));
         label_staff_name->setText(QCoreApplication::translate("DialogInsertStaff", "\331\206\330\247\331\205 \331\210 \331\206\330\247\331\205\342\200\214\330\256\330\247\331\206\331\210\330\247\330\257\332\257\333\214:", nullptr));
         label_staff_icon->setText(QString());
+        label_id_text->setText(QCoreApplication::translate("DialogInsertStaff", "\332\251\330\257 \331\276\330\261\330\263\331\206\331\204\333\214:", nullptr));
+        label_id_icon->setText(QString());
         label_repeat_password->setText(QCoreApplication::translate("DialogInsertStaff", "\330\252\332\251\330\261\330\247\330\261 \330\261\331\205\330\262\330\271\330\250\331\210\330\261:", nullptr));
         label_password->setText(QCoreApplication::translate("DialogInsertStaff", "\330\261\331\205\330\262\330\271\330\250\331\210\330\261:", nullptr));
         label_password_icon->setText(QString());
