@@ -21,10 +21,11 @@ DialogDeleteBook::~DialogDeleteBook()
 
 void DialogDeleteBook::on_pushButton_delete_clicked()
 {
-    QString isbnCode,bookTitle;
+    QString isbnCode,bookTitle,writerName;
 
     isbnCode=ui->lineEdit_isbncode->text();
     bookTitle=ui->lineEdit_booktitle->text();
+    writerName=ui->lineEdit_writername->text();
 
     QSqlQuery querydelete;
     querydelete.prepare("DELETE FROM Book_Info WHERE ISBN_Code = "+isbnCode+" ");
@@ -38,11 +39,18 @@ void DialogDeleteBook::on_pushButton_delete_clicked()
 
     }
 
+    ui->lineEdit_isbncode->clear();
+    ui->lineEdit_booktitle->clear();
+    ui->lineEdit_writername->clear();
 }
 
 
 void DialogDeleteBook::on_pushButton_exit_clicked()
 {
+    ui->lineEdit_isbncode->clear();
+    ui->lineEdit_booktitle->clear();
+    ui->lineEdit_writername->clear();
     this->close();
+
 }
 

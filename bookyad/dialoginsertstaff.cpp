@@ -20,19 +20,20 @@ DialogInsertStaff::~DialogInsertStaff()
 
 void DialogInsertStaff::on_pushButton_insert_clicked()
 {
-    QString Duty,staffName,pass,repeatPass;
+    QString duty, id, staffName, pass,repeatPass;
 
-    Duty=ui->comboBox_role->currentText();
+    duty=ui->comboBox_role->currentText();
+    id= ui->lineEdit_id->text();
     staffName=ui->lineEdit_staff_name->text();
     pass=ui->lineEdit_password->text();
-    repeatPass=ui->label_repeat_password->text();
+    repeatPass=ui->lineEdit_repeat_password->text();
 
     QCryptographicHash hash(QCryptographicHash::Md5);
     hash.addData(pass.toUtf8());
     QByteArray hashedPassword = hash.result().toHex();
 
     QSqlQuery queryinsert;
-    queryinsert.prepare("INSERT INTO Staff_Details (name,Password,duty) VALUES ('"+staffName+"','"+hashedPassword+"','"+Duty+"')");
+    queryinsert.prepare("INSERT INTO Staff_Details (id,name,Password,duty) VALUES ('"+id+"','"+staffName+"','"+hashedPassword+"','"+duty+"')");
 
     if(queryinsert.exec())
     {
@@ -47,6 +48,20 @@ void DialogInsertStaff::on_pushButton_insert_clicked()
 
     }
 
+    ui->lineEdit_id->clear();
+    ui->lineEdit_staff_name->clear();
+    ui->lineEdit_password->text();
+    ui->lineEdit_repeat_password->text();
 
+}
+
+
+void DialogInsertStaff::on_pushButton_exit_clicked()
+{
+    ui->lineEdit_id->clear();
+    ui->lineEdit_staff_name->clear();
+    ui->lineEdit_password->text();
+    ui->lineEdit_repeat_password->text();
+    this->close();
 }
 

@@ -39,9 +39,9 @@ public:
     QLabel *label_booktitle_text;
     QLabel *label_book_icon;
     QHBoxLayout *horizontalLayout_5;
-    QLineEdit *lineEdit_writername_2;
-    QLabel *label_writername_text_2;
-    QLabel *label_writer_icon_2;
+    QLineEdit *lineEdit_writername;
+    QLabel *label_writername_text;
+    QLabel *label_writer_icon;
     QHBoxLayout *horizontalLayout_4;
     QPushButton *pushButton_edit;
     QPushButton *pushButton_exit;
@@ -117,24 +117,24 @@ public:
 
         horizontalLayout_5 = new QHBoxLayout();
         horizontalLayout_5->setObjectName("horizontalLayout_5");
-        lineEdit_writername_2 = new QLineEdit(groupBox);
-        lineEdit_writername_2->setObjectName("lineEdit_writername_2");
+        lineEdit_writername = new QLineEdit(groupBox);
+        lineEdit_writername->setObjectName("lineEdit_writername");
 
-        horizontalLayout_5->addWidget(lineEdit_writername_2);
+        horizontalLayout_5->addWidget(lineEdit_writername);
 
-        label_writername_text_2 = new QLabel(groupBox);
-        label_writername_text_2->setObjectName("label_writername_text_2");
+        label_writername_text = new QLabel(groupBox);
+        label_writername_text->setObjectName("label_writername_text");
 
-        horizontalLayout_5->addWidget(label_writername_text_2);
+        horizontalLayout_5->addWidget(label_writername_text);
 
-        label_writer_icon_2 = new QLabel(groupBox);
-        label_writer_icon_2->setObjectName("label_writer_icon_2");
-        label_writer_icon_2->setMinimumSize(QSize(16, 16));
-        label_writer_icon_2->setMaximumSize(QSize(16, 16));
-        label_writer_icon_2->setPixmap(QPixmap(QString::fromUtf8(":/icons/pencil-icon.png")));
-        label_writer_icon_2->setScaledContents(true);
+        label_writer_icon = new QLabel(groupBox);
+        label_writer_icon->setObjectName("label_writer_icon");
+        label_writer_icon->setMinimumSize(QSize(16, 16));
+        label_writer_icon->setMaximumSize(QSize(16, 16));
+        label_writer_icon->setPixmap(QPixmap(QString::fromUtf8(":/icons/pencil-icon.png")));
+        label_writer_icon->setScaledContents(true);
 
-        horizontalLayout_5->addWidget(label_writer_icon_2);
+        horizontalLayout_5->addWidget(label_writer_icon);
 
 
         verticalLayout->addLayout(horizontalLayout_5);
@@ -178,8 +178,8 @@ public:
         label_isbn_icon->setText(QString());
         label_booktitle_text->setText(QCoreApplication::translate("DialogEditBook", "\331\206\330\247\331\205 \332\251\330\252\330\247\330\250:", nullptr));
         label_book_icon->setText(QString());
-        label_writername_text_2->setText(QCoreApplication::translate("DialogEditBook", "\331\206\331\210\333\214\330\263\331\206\330\257\331\207:", nullptr));
-        label_writer_icon_2->setText(QString());
+        label_writername_text->setText(QCoreApplication::translate("DialogEditBook", "\331\206\331\210\333\214\330\263\331\206\330\257\331\207:", nullptr));
+        label_writer_icon->setText(QString());
         pushButton_edit->setText(QCoreApplication::translate("DialogEditBook", "\331\210\333\214\330\261\330\247\333\214\330\264", nullptr));
         pushButton_exit->setText(QCoreApplication::translate("DialogEditBook", "\330\250\330\247\330\262\332\257\330\264\330\252", nullptr));
     } // retranslateUi

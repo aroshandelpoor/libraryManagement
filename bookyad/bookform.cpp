@@ -36,8 +36,7 @@ bookForm::bookForm(QWidget *parent) :
     ui->lineEdit_search->setStyleSheet("QLineEdit {border: 2px solid gray;" "border-radius: 5px;}");
 
     connect(ui->tableView, &QTableView::customContextMenuRequested, this, &bookForm::on_tableView_customContextMenuRequested);
-
-
+    connect(ui->lineEdit_search, &QLineEdit::returnPressed, this, &bookForm::on_pushButton_search_clicked);
 }
 
 bookForm::~bookForm()
@@ -103,7 +102,7 @@ void bookForm::on_pushButton_search_clicked()
     QSqlQueryModel *model0=new QSqlQueryModel();
 
     QSqlQuery *qry0=new QSqlQuery;
-    qry0->prepare("SELECT * FROM Book_Info where Book_Title like'%"+searchTerm+"%'");
+    qry0->prepare("SELECT * FROM Book_Info where ISBN_Code like'%"+searchTerm+"%'"" OR Book_Title like'%"+searchTerm+"%'"" OR Writer_Name like'%"+searchTerm+"%'""");
     qry0->exec();
     model0->setQuery(*qry0);
 

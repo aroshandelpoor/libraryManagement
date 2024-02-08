@@ -60,11 +60,18 @@ void DialoginsertBook::on_pushButton_accept_clicked()
         QMessageBox::critical(this,"خطای ثبت","اطلاعات ارسال نشد!");
 
     }
+
+    ui->lineEdit_isbncode->clear();
+    ui->lineEdit_booktitle->clear();
+    ui->lineEdit_writername->clear();
 }
 
 
 void DialoginsertBook::on_pushButton_exit_clicked()
 {
+    ui->lineEdit_isbncode->clear();
+    ui->lineEdit_booktitle->clear();
+    ui->lineEdit_writername->clear();
     this->close();
 }
 

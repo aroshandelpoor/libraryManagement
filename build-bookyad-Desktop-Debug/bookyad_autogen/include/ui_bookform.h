@@ -92,11 +92,16 @@ public:
         horizontalLayout_2->setObjectName("horizontalLayout_2");
         pushButton_search = new QPushButton(centralwidget);
         pushButton_search->setObjectName("pushButton_search");
+        pushButton_search->setAutoDefault(false);
 
         horizontalLayout_2->addWidget(pushButton_search);
 
         lineEdit_search = new QLineEdit(centralwidget);
         lineEdit_search->setObjectName("lineEdit_search");
+        lineEdit_search->setTabletTracking(false);
+        lineEdit_search->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
+        lineEdit_search->setDragEnabled(false);
+        lineEdit_search->setClearButtonEnabled(true);
 
         horizontalLayout_2->addWidget(lineEdit_search);
 
@@ -178,6 +183,15 @@ public:
         label_text->setText(QCoreApplication::translate("bookForm", "\330\263\330\247\331\205\330\247\331\206\331\207 \331\205\330\257\333\214\330\261\333\214\330\252 \332\251\330\252\330\247\330\250\330\256\330\247\331\206\331\207 \330\250\331\210\332\251\333\214\330\247\330\257", nullptr));
         label_icon->setText(QString());
         pushButton_search->setText(QCoreApplication::translate("bookForm", "\330\254\330\263\330\252\330\254\331\210", nullptr));
+#if QT_CONFIG(tooltip)
+        lineEdit_search->setToolTip(QString());
+#endif // QT_CONFIG(tooltip)
+#if QT_CONFIG(statustip)
+        lineEdit_search->setStatusTip(QString());
+#endif // QT_CONFIG(statustip)
+        lineEdit_search->setInputMask(QString());
+        lineEdit_search->setText(QString());
+        lineEdit_search->setPlaceholderText(QCoreApplication::translate("bookForm", "\330\264\330\247\330\250\332\251\330\214 \331\206\330\247\331\205 \332\251\330\252\330\247\330\250\330\214 \331\206\330\247\331\205 \331\206\331\210\333\214\330\263\331\206\330\257\331\207", nullptr));
         label_search_text->setText(QCoreApplication::translate("bookForm", "\330\254\330\263\330\252\330\254\331\210:", nullptr));
         label_search_icon->setText(QString());
         pushButton_insert->setText(QCoreApplication::translate("bookForm", "\330\253\330\250\330\252", nullptr));
