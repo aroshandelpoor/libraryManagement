@@ -25,6 +25,8 @@ MemberForm::MemberForm(QWidget *parent) :
     db= QSqlDatabase :: addDatabase("QSQLITE");
     db.setDatabaseName(path+"/bookyad/database/bookyad.db");
     db.open();
+
+    show_grid();
 }
 
 MemberForm::~MemberForm()
@@ -49,14 +51,27 @@ void MemberForm::on_pushButton_edit_clicked()
 
 void MemberForm::on_pushButton_refresh_clicked()
 {
+    show_grid();
+}
+
+void MemberForm::show_grid()
+{
     QSqlQueryModel *model=new QSqlQueryModel();
 
     QSqlQuery *qry=new QSqlQuery;
-    qry->prepare("Select * from Student_Details order by Student_Id desc");
+    qry->prepare("SELECT student_id, student_name, sex, date_of_birth, contact_number FROM Student_Details order by Student_Id desc");
     qry->exec();
     model->setQuery(*qry);
+
+    QStringList newColumnNames;
+    newColumnNames << "کدملی اعضا" << "نام , نام خانوادگی" << "جنسیت" << "تاریخ تولد" << "شماره تماس" ;
+
+    for (int column = 0; column < newColumnNames.size(); ++column)
+    {
+        model->setHeaderData(column, Qt::Horizontal, newColumnNames[column]);
+    }
+
     ui->tableView->setModel(model);
 
     qDebug() << (model->rowCount());
-
 }
