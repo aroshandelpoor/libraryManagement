@@ -30,12 +30,12 @@ public:
     QVBoxLayout *verticalLayout_2;
     QVBoxLayout *verticalLayout_3;
     QHBoxLayout *horizontalLayout;
-    QLineEdit *lineEdit_phonenumbermember;
-    QLabel *label_memberid_text;
-    QLabel *label_memberid_icon;
     QLineEdit *lineEdit_membername;
     QLabel *label_membername_text;
     QLabel *label_membername_icon;
+    QLineEdit *lineEdit_phonenumbermember;
+    QLabel *label_memberid_text;
+    QLabel *label_memberid_icon;
     QHBoxLayout *horizontalLayout_4;
     QPushButton *pushButton_delete;
     QPushButton *pushButton_exit;
@@ -63,25 +63,6 @@ public:
         verticalLayout_3->setObjectName("verticalLayout_3");
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName("horizontalLayout");
-        lineEdit_phonenumbermember = new QLineEdit(groupBox);
-        lineEdit_phonenumbermember->setObjectName("lineEdit_phonenumbermember");
-
-        horizontalLayout->addWidget(lineEdit_phonenumbermember);
-
-        label_memberid_text = new QLabel(groupBox);
-        label_memberid_text->setObjectName("label_memberid_text");
-
-        horizontalLayout->addWidget(label_memberid_text);
-
-        label_memberid_icon = new QLabel(groupBox);
-        label_memberid_icon->setObjectName("label_memberid_icon");
-        label_memberid_icon->setMinimumSize(QSize(16, 16));
-        label_memberid_icon->setMaximumSize(QSize(16, 16));
-        label_memberid_icon->setPixmap(QPixmap(QString::fromUtf8(":/icons/national id.png")));
-        label_memberid_icon->setScaledContents(true);
-
-        horizontalLayout->addWidget(label_memberid_icon);
-
         lineEdit_membername = new QLineEdit(groupBox);
         lineEdit_membername->setObjectName("lineEdit_membername");
 
@@ -100,6 +81,25 @@ public:
         label_membername_icon->setScaledContents(true);
 
         horizontalLayout->addWidget(label_membername_icon);
+
+        lineEdit_phonenumbermember = new QLineEdit(groupBox);
+        lineEdit_phonenumbermember->setObjectName("lineEdit_phonenumbermember");
+
+        horizontalLayout->addWidget(lineEdit_phonenumbermember);
+
+        label_memberid_text = new QLabel(groupBox);
+        label_memberid_text->setObjectName("label_memberid_text");
+
+        horizontalLayout->addWidget(label_memberid_text);
+
+        label_memberid_icon = new QLabel(groupBox);
+        label_memberid_icon->setObjectName("label_memberid_icon");
+        label_memberid_icon->setMinimumSize(QSize(16, 16));
+        label_memberid_icon->setMaximumSize(QSize(16, 16));
+        label_memberid_icon->setPixmap(QPixmap(QString::fromUtf8(":/icons/national id.png")));
+        label_memberid_icon->setScaledContents(true);
+
+        horizontalLayout->addWidget(label_memberid_icon);
 
 
         verticalLayout_3->addLayout(horizontalLayout);
@@ -139,10 +139,10 @@ public:
     {
         DialogDeleteMember->setWindowTitle(QCoreApplication::translate("DialogDeleteMember", "Dialog", nullptr));
         groupBox->setTitle(QCoreApplication::translate("DialogDeleteMember", "\330\255\330\260\331\201 \330\247\330\271\330\266\330\247", nullptr));
-        label_memberid_text->setText(QCoreApplication::translate("DialogDeleteMember", "\332\251\330\257 \331\205\331\204\333\214:", nullptr));
-        label_memberid_icon->setText(QString());
         label_membername_text->setText(QCoreApplication::translate("DialogDeleteMember", "\331\206\330\247\331\205 \331\210 \331\206\330\247\331\205\342\200\214\330\256\330\247\331\206\331\210\330\247\330\257\332\257\333\214:", nullptr));
         label_membername_icon->setText(QString());
+        label_memberid_text->setText(QCoreApplication::translate("DialogDeleteMember", "\332\251\330\257 \331\205\331\204\333\214:", nullptr));
+        label_memberid_icon->setText(QString());
         pushButton_delete->setText(QCoreApplication::translate("DialogDeleteMember", "\330\255\330\260\331\201", nullptr));
         pushButton_exit->setText(QCoreApplication::translate("DialogDeleteMember", "\330\250\330\247\330\262\332\257\330\264\330\252", nullptr));
     } // retranslateUi

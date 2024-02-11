@@ -10,7 +10,6 @@
 #include "QFileInfo"
 #include "QScreen"
 #include "QSqlError"
-#include "QCryptographicHash"
 
 StaffForm::StaffForm(QWidget *parent) :
     QMainWindow(parent),

@@ -26,6 +26,8 @@ private slots:
 
     void on_pushButton_refresh_clicked();
 
+    void show_grid();
+
 private:
     Ui::MemberForm *ui;
     DialogInsertMember insertMember;
