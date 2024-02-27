@@ -301,12 +301,6 @@
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/SignUpWindow.h",
-			"MU",
-			"EWIEGA46WW/moc_SignUpWindow.cpp",
-			null
-		],
-		[
 			"C:/Users/arosh/OneDrive/Desktop/bookyad/bookyad/bookform.h",
 			"MU",
 			"EWIEGA46WW/moc_bookform.cpp",

@@ -2,8 +2,14 @@
 #define LOGINWINDOW_H
 
 #include <QMainWindow>
-#include "loginwindow.h"
 #include "mainform.h"
+#include "QDialog"
+#include "QDebug"
+#include "QSql"
+#include "QFileInfo"
+#include "QMessageBox"
+#include "QStandardPaths"
+#include "QSqlQuery"
 
 
 namespace Ui {

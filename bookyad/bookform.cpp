@@ -20,15 +20,6 @@ bookForm::bookForm(QWidget *parent) :
 
     move(QGuiApplication::screens().at(0)->geometry().center() - frameGeometry().center());
 
-    QFileInfo info(QDir::currentPath());
-    QString path = info.absolutePath();
-
-    QSqlDatabase db;
-
-    db= QSqlDatabase :: addDatabase("QSQLITE");
-    db.setDatabaseName(path+"/bookyad/database/bookyad.db");
-    db.open();
-
     setWindowTitle("پنل ثبت کتاب");
 
     show_grid();
