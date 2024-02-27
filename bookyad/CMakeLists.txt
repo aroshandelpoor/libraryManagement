@@ -61,7 +61,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         dialoginsertmember.h dialoginsertmember.cpp dialoginsertmember.ui
         dialogdeletemember.h dialogdeletemember.cpp dialogdeletemember.ui
         dialogeditmember.h dialogeditmember.cpp dialogeditmember.ui
-        signupwindow.h
+
 
     )
 # Define target properties for Android with Qt 6 as:
@@ -85,6 +85,7 @@ endif()
 target_link_libraries(bookyad PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 target_link_libraries(bookyad PRIVATE Qt6::Sql)
 target_link_libraries(bookyad PRIVATE OpenSSL::Crypto)
+
 
 
 set_target_properties(bookyad PROPERTIES

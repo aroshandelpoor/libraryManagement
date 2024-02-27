@@ -25,7 +25,7 @@ LoginWindow::LoginWindow(QWidget *parent) :
     QSqlDatabase db;
 
     db= QSqlDatabase :: addDatabase("QSQLITE");
-    db.setDatabaseName(path+"/bookyad/database/bookyad.db");
+    db.setDatabaseName(path+"/bookyad/database/bookYad.db");
     db.open();
 
     setWindowTitle("سامانه مدیریت کتابخانه بوکیاد");
