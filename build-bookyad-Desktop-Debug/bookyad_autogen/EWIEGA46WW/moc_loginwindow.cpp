@@ -40,14 +40,18 @@ struct qt_meta_stringdata_CLASSLoginWindowENDCLASS_t {};
 static constexpr auto qt_meta_stringdata_CLASSLoginWindowENDCLASS = QtMocHelpers::stringData(
     "LoginWindow",
     "on_pushButton_login_clicked",
-    ""
+    "",
+    "on_label_linkActivated",
+    "link"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSLoginWindowENDCLASS_t {
-    uint offsetsAndSizes[6];
+    uint offsetsAndSizes[10];
     char stringdata0[12];
     char stringdata1[28];
     char stringdata2[1];
+    char stringdata3[23];
+    char stringdata4[5];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSLoginWindowENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -55,11 +59,15 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSLoginWindowENDCLASS_t qt_meta_s
     {
         QT_MOC_LITERAL(0, 11),  // "LoginWindow"
         QT_MOC_LITERAL(12, 27),  // "on_pushButton_login_clicked"
-        QT_MOC_LITERAL(40, 0)   // ""
+        QT_MOC_LITERAL(40, 0),  // ""
+        QT_MOC_LITERAL(41, 22),  // "on_label_linkActivated"
+        QT_MOC_LITERAL(64, 4)   // "link"
     },
     "LoginWindow",
     "on_pushButton_login_clicked",
-    ""
+    "",
+    "on_label_linkActivated",
+    "link"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -71,7 +79,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSLoginWindowENDCLASS[] = {
       11,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       2,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -79,10 +87,12 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSLoginWindowENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   20,    2, 0x08,    1 /* Private */,
+       1,    0,   26,    2, 0x08,    1 /* Private */,
+       3,    1,   27,    2, 0x08,    2 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    4,
 
        0        // eod
 };
@@ -97,7 +107,10 @@ Q_CONSTINIT const QMetaObject LoginWindow::staticMetaObject = { {
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<LoginWindow, std::true_type>,
         // method 'on_pushButton_login_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_label_linkActivated'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<const QString &, std::false_type>
     >,
     nullptr
 } };
@@ -112,7 +125,6 @@ void LoginWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id,
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *LoginWindow::metaObject() const
@@ -134,13 +146,13 @@ int LoginWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 2;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 2)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 2;
     }
     return _id;
 }

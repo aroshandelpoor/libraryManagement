@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "mainform.h"
+#include "dialoginsertstaff.h"
 #include "QDialog"
 #include "QDebug"
 #include "QSql"
@@ -27,9 +28,12 @@ public:
 private slots:
     void on_pushButton_login_clicked();
 
+    void on_label_linkActivated(const QString &link);
+
 private:
     Ui::LoginWindow *ui;
     MainForm mainform;
+    DialogInsertStaff dialoginsertstaff;
 };
 
 #endif // LOGINWINDOW_H
