@@ -223,6 +223,16 @@
       </property>
      </spacer>
     </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>تا کنون ثبت نام نکردید؟!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">

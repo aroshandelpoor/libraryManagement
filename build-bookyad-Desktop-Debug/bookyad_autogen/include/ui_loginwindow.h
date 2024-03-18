@@ -48,6 +48,7 @@ public:
     QPushButton *pushButton_login;
     QSpacerItem *horizontalSpacer_6;
     QSpacerItem *verticalSpacer;
+    QLabel *label;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -159,6 +160,12 @@ public:
 
         verticalLayout_2->addItem(verticalSpacer);
 
+        label = new QLabel(centralwidget);
+        label->setObjectName("label");
+        label->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_2->addWidget(label);
+
         LoginWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(LoginWindow);
         menubar->setObjectName("menubar");
@@ -180,6 +187,7 @@ public:
         label_user->setText(QCoreApplication::translate("LoginWindow", "\331\206\330\247\331\205 \332\251\330\247\330\261\330\250\330\261\333\214:", nullptr));
         label_password->setText(QCoreApplication::translate("LoginWindow", "\332\251\331\204\331\205\331\207 \330\271\330\250\331\210\330\261:", nullptr));
         pushButton_login->setText(QCoreApplication::translate("LoginWindow", "\331\210\330\261\331\210\330\257", nullptr));
+        label->setText(QCoreApplication::translate("LoginWindow", "\330\252\330\247 \332\251\331\206\331\210\331\206 \330\253\330\250\330\252 \331\206\330\247\331\205 \331\206\332\251\330\261\330\257\333\214\330\257\330\237!", nullptr));
     } // retranslateUi
 
 };
